@@ -1,0 +1,13 @@
+<?php
+// Database connection settings
+$host = "localhost";
+$username = "your_username";
+$password = "your_password";
+$database = "your_database";
+
+// Establish database connection
+$connection = mysqli_connect($host, $username, $password, $database);
+
+// Check connection
+if (mysqli_connect_errno()) {
+  die("Failed to connect to MySQL: " . mysqli
